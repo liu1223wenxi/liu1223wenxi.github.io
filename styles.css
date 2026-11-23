@@ -189,18 +189,18 @@ h2 {
   background: var(--accent-hover);
 }
 
-.publications {
+.education {
   padding: clamp(1.1rem, 3.4vw, 2rem);
   background: var(--paper);
 }
 
-.publication-list {
+.education-list {
   margin-top: 0.75rem;
   padding: 0;
   list-style: none;
 }
 
-.publication {
+.education-entry {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: baseline;
@@ -209,21 +209,21 @@ h2 {
   border-top: 1px solid var(--paper-line);
 }
 
-.publication:last-child {
+.education-entry:last-child {
   padding-bottom: 0;
 }
 
-.publication h3 {
+.education-entry h3 {
   font-size: 1rem;
   font-weight: 650;
 }
 
-.publication p, .publication-year {
+.education-entry p, .education-period {
   color: var(--muted);
   font-size: 0.875rem;
 }
 
-.publication-year {
+.education-period {
   font-variant-numeric: tabular-nums;
 }
 
@@ -265,7 +265,7 @@ h2 {
   margin-bottom: 0.55rem;
 }
 
-.email {
+.profile-link {
   font-weight: 600;
   overflow-wrap: anywhere;
   text-decoration-color: var(--blue);
@@ -314,7 +314,7 @@ h2 {
     gap: 0 0.75rem;
   }
 
-  .project, .details {
+  .education-entry, .project, .details {
     grid-template-columns: 1fr;
   }
 }
